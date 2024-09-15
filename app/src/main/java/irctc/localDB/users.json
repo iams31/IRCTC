@@ -1,0 +1,32 @@
+[
+  {
+    "user_id": "123,",
+    "name": "Sameer Kumar",
+    "hashed_password": "abc123456",
+    "email": "sk15fdf@hotmail.com",
+    "mobile": "1234567890",
+    "tickets_booked": [
+      {
+        "source": "Bangalore",
+        "destination": "Delhi",
+        "train_name": "Rajdhani",
+        "date_of_travel": "2023-12-08T18:30:00Z",
+        "train": {
+          "train_id": "bacs",
+          "train_no": 12345,
+          "seats": [
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0]
+          ],
+          "stations": {
+            "Bangalore": "13:50:00",
+            "Jaipur": "13:50:00",
+            "Delhi": "13:50:00"
+          }
+        }
+      }
+    ]
+  }
+]
